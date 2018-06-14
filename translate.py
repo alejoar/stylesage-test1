@@ -1,5 +1,7 @@
-
 def translate(number):
+    """Generates a string representation of an integer with commas separating
+    groups of 3 digits """
+
     try:
         number = str(int(number))
     except ValueError:
