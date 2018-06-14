@@ -1,5 +1,10 @@
 
 def translate(number):
+    try:
+        number = str(int(number))
+    except ValueError:
+        raise ValueError('Not a number!')
+
     final = []
     trio = number[-3:]
     i = 0
