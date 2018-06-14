@@ -12,3 +12,9 @@ Out[2]: '1,234'
 In [3]: translate(123456789)
 Out[3]: '123,456,789'
 ```
+
+### Tests
+
+Install pytest: `pip install pytest`
+
+Run tests: `pytest tests.py`
